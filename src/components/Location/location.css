@@ -1,0 +1,10 @@
+.location{
+    border-right: 1px solid rgb(197, 197, 197);
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding: 2em;
+    padding-left: 4em;
+}
+
+h4{
+    margin: 0;
+}

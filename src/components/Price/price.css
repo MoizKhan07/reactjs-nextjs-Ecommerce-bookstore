@@ -1,0 +1,38 @@
+.price{
+    padding: 2em;
+    border-right: 1px solid rgb(197, 197, 197);
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    margin: 0 4px;
+}
+button{
+    border: none;
+    border-radius: 2em;
+    padding: 1em 2em;
+    color: grey;
+    margin-top: 1em;
+}
+
+.arrow {
+    border: solid rgb(156, 156, 156);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+  }
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

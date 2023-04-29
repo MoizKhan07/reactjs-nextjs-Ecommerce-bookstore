@@ -1,0 +1,69 @@
+.filter{
+    padding: 2em;
+    border-right: 1px solid rgb(197, 197, 197);
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+i{
+    cursor: pointer;
+}
+
+.first{
+    font-weight: bold;
+    font-size: .9rem;
+    color: rgb(54, 54, 54);
+    margin-bottom: 1.5em;
+}
+
+.first span{
+    font-weight: 300;
+    color: grey;
+    margin: 0 4px;
+}
+
+.icon{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+.icon span{
+    margin: 0 4px;
+}
+
+.categories{
+padding-left: 2em;
+transition: all .25s ease;
+}
+.categories h4{
+    margin: 0;
+}
+
+.check-item{
+    color: rgb(121, 120, 120);
+    margin-top: 1em;
+}
+.arrow {
+    border: solid rgb(156, 156, 156);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+input[type=checkbox]{
+    background-color: white;
+}
+
+input[type=checkbox]:checked{
+    background-color: white;
+}

@@ -1,0 +1,39 @@
+.jumbo {
+    background-image: url(./jumbo-bg.jpg);
+    background-size: cover;
+    width: 60%;
+    color: white;
+    padding: 4em;
+    background-color: black;
+    border-radius: 1em;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btnOne {
+    background-color: rgb(134, 100, 56);
+    color: white;
+    margin-right: 1em;
+}
+
+.btnTwo {
+    color: rgb(134, 100, 56);
+    background-color: white;
+}

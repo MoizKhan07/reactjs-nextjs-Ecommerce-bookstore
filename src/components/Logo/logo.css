@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    border-right: 1px solid rgb(197, 197, 197);
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+p{
+    margin: 0;
+}
+
+.logo-img{
+    background-color: rgb(161, 124, 80);
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: .8em 1em;
+    box-shadow: 1px 1px 2px rgb(131, 131, 131);
+}
+
+.logo-name{
+    color: #252525;
+    margin-left: 1.3em;
+    font-size: larger;
+}
